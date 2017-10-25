@@ -1195,6 +1195,22 @@
 		text-align: center;
 	}
 
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+	
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out;
@@ -1229,6 +1245,8 @@
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-image: url(https://a.safe.moe/qlU04.png);
+			background-size: contain;
 		}
 
 			#header .logo .icon:before {
@@ -1435,6 +1453,7 @@
 		}
 
 /* Main */
+
 
 	#main {
 		-moz-flex-grow: 1;

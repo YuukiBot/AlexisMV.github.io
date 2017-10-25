@@ -1,4 +1,4 @@
-# Web Portfolio?? Landing..?
+# Web Portfolio?? Landing I guess
 
 Hi I really have nothing to say about myself but here goes haha
 
